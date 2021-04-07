@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Random Number Generator</title>
+</head>
+<body>
+ 
+    <header>
+    <h1>Random Number Generator</h1>
+    </header>
+      
+    <div class="container">
+        <span id="result"></span>
+
+        <form class="form">
+
+         <div class="section">
+            <input type="text" name="min" id="min" required>
+            <label for="min" class="label-name">
+                <span class="content-name">Min</span>
+            </label>
+         </div>
+               
+          
+         <div class="section">
+
+            <input type="text" name="max" id="max" required>
+                <label for="max" class="label-name">
+                    <span class="content-name">Max</span>
+                </label>
+            </div>
+
+         
+         <input type="button" class="generate" value="Generate Number">
+        
+          
+        </form>
+    </div>
+
+  <script src="app.js"></script> 
+</body>
+</html>
